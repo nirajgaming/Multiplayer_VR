@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator", "Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj", "{C9790CBD-8355-52F4-B092-E0838B2B3593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj", "{34893B1E-B6D0-3986-0601-B01D56972416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj", "{1766C91D-77F7-5474-E0C1-29F545F138FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9790CBD-8355-52F4-B092-E0838B2B3593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9790CBD-8355-52F4-B092-E0838B2B3593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9790CBD-8355-52F4-B092-E0838B2B3593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9790CBD-8355-52F4-B092-E0838B2B3593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34893B1E-B6D0-3986-0601-B01D56972416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34893B1E-B6D0-3986-0601-B01D56972416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34893B1E-B6D0-3986-0601-B01D56972416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34893B1E-B6D0-3986-0601-B01D56972416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1766C91D-77F7-5474-E0C1-29F545F138FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1766C91D-77F7-5474-E0C1-29F545F138FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1766C91D-77F7-5474-E0C1-29F545F138FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1766C91D-77F7-5474-E0C1-29F545F138FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

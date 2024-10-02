@@ -58,6 +58,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_VR_Multiplayer_Project\Scripts\HandController.cs" />
     <Compile Include="Assets\Mini Toon Office\Readme\Scripts\Readme.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +67,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Photon\Fusion\Assemblies\Fusion.Realtime.xml" />
+    <None Include="Assets\Unity VR Hands\Oculus Hands\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Photon\Fusion\Assemblies\Fusion.Common.dll" />

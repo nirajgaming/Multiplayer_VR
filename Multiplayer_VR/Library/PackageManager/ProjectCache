@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638625835044241463
+      ticks: 638632079885794205
     m_Hash: 124157566
   m_LockFileStatus:
     m_FilePath: E:/Multiplayer_VR/Multiplayer_VR/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638625835044344001
+      ticks: 638632079885924881
     m_Hash: 2458113401
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -118,6 +118,7 @@ m_ResolvedPackages:
     - 2.4.3
     - 2.4.4
     - 2.5.1
+    - 2.5.2
     compatible:
     - 2.0.7
     - 2.1.0-preview.3
@@ -129,6 +130,7 @@ m_ResolvedPackages:
     - 2.4.3
     - 2.4.4
     - 2.5.1
+    - 2.5.2
     recommended: 2.0.7
     deprecated: []
   dependencies: []
@@ -3768,9 +3770,11 @@ m_ResolvedPackages:
     - 2.1.8
     - 2.1.9
     - 2.1.10
+    - 2.1.11
     compatible:
     - 2.1.10
-    recommended: 2.1.10
+    - 2.1.11
+    recommended: 2.1.11
     deprecated: []
   dependencies:
   - name: com.unity.modules.vr
@@ -4743,6 +4747,7 @@ m_ResolvedPackages:
     - 3.2.3
     - 3.3.0
     - 3.4.0
+    - 3.4.1
     - 4.0.0
     - 4.1.1
     - 4.1.2

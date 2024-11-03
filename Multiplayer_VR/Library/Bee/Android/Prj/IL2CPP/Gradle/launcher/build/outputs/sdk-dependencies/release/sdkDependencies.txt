@@ -1,0 +1,31 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "audioinaec"
+  }
+  digests {
+    sha256: "\273J\v\256\313\375\247\376\021e<\272\360R\032\276\325\025\216\n\371\302\352\r.\374\210\000\001[>\030"
+  }
+}
+library {
+  digests {
+    sha256: "\313\210\347P\263&\227\315\030,/\0044^l\232\257=\273\224\023>.pi,\006\261\256\026\000\037"
+  }
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 0
+  dependency_index: 1
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}

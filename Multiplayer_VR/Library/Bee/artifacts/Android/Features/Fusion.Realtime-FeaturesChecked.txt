@@ -1,0 +1,5 @@
+UnityEngine.Networking
+System.Net.Sockets
+UnityEngine.Network
+UnityEngine.Networking.UnityWebRequest
+UnityEngine.Application::get_internetReachability

@@ -35,4 +35,14 @@ public class HandController : MonoBehaviour
         triggerValue = triggerInputActionReference.action.ReadValue<float>();
         handAnimator.SetFloat("Trigger_Value", triggerValue);
     }
+
+    public float GetGripValue()
+    {
+        return gripValue;
+    }
+
+    public float GetTriggerValue()
+    {
+        return triggerValue;
+    }
 }

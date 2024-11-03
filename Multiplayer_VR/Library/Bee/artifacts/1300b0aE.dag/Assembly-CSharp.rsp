@@ -126,6 +126,12 @@
 -define:UNITY_POST_PROCESSING_STACK_V2
 -define:FUSION_WEAVER
 -define:FUSION2
+-define:PHOTON_UNITY_NETWORKING
+-define:PUN_2_0_OR_NEWER
+-define:PUN_2_OR_NEWER
+-define:PUN_2_19_OR_NEWER
+-define:CROSS_PLATFORM_INPUT
+-define:MOBILE_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Photon/Fusion/Assemblies/Fusion.Common.dll"
@@ -346,7 +352,23 @@
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Fusion.Unity.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Fusion.Unity.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/MicAmplifierEditor.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/ParrelSync.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonChat.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonRealtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Utilities.Culling.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonUnityNetworking.Utilities.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.API.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.Fusion.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.Fusion.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.PUN.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.PUN.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PhotonVoice.Utilities.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Burst.ref.dll"
@@ -414,10 +436,51 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Voice.FMOD.Editor.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Mini Toon Office/Readme/Scripts/Readme.cs"
+"Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoiceProximityChat/Scripts/ChangeColor.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoiceProximityChat/Scripts/ChangeName.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoiceProximityChat/Scripts/PointersController.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoiceProximityChat/Scripts/ProximityVoiceTrigger.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BaseController.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/BetterToggle.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/ChangePOV.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/CharacterInstantiation.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/FirstPersonController.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/Highlighter.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/MouseLookHelper.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/OrthographicController.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/ThirdPersonController.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Scripts/VoiceDemoUI.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoicePun/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/BackgroundMusicController.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/CodecSettingsUI.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/DemoVoiceUI.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/MicrophoneSelector.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/PhotonDemoExtensions.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/RemoteSpeakerUI.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/SidebarToggle.cs"
+"Assets/Photon/PhotonVoice/Demos/DemoVoiceUI/Scripts/UiExtensions.cs"
+"Assets/Photon/PhotonVoice/Demos/Fusion/DemoNetworkObject/PrefabSpawner.cs"
+"Assets/_VR_Multiplayer_Project/Scripts/ConnectionManager.cs"
 "Assets/_VR_Multiplayer_Project/Scripts/HandController.cs"
+"Assets/_VR_Multiplayer_Project/Scripts/IntroScript.cs"
+"Assets/_VR_Multiplayer_Project/Scripts/LocalXRRig.cs"
+"Assets/_VR_Multiplayer_Project/Scripts/NetworkXRRig.cs"
+"Assets/_VR_Multiplayer_Project/Scripts/SessionManager.cs"
+"Assets/_VR_Multiplayer_Project/Scripts/SpawnManager.cs"
 -langversion:9.0
 /unsafe+
 /deterministic

@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="32"
+7-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+10-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-77
+10-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-74
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-69
+11-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-66
+12    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+12-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-78
+12-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:20-75
+13
+14    <uses-feature
+14-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-90
+15        android:name="android.hardware.vulkan.version"
+15-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-63
+16        android:required="true" />
+16-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:64-87
+17    <uses-feature
+17-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-87
+18        android:name="android.hardware.microphone"
+18-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-59
+19        android:required="false" />
+19-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:60-84
+20    <uses-feature
+20-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-88
+21        android:name="android.hardware.touchscreen"
+21-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-60
+22        android:required="false" />
+22-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:61-85
+23    <uses-feature
+23-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-99
+24        android:name="android.hardware.touchscreen.multitouch"
+24-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-71
+25        android:required="false" />
+25-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:72-96
+26    <uses-feature
+26-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-108
+27        android:name="android.hardware.touchscreen.multitouch.distinct"
+27-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:17-80
+28        android:required="false" />
+28-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:81-105
+29
+30    <application android:extractNativeLibs="true" >
+30-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:3-27:17
+30-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-48
+31        <meta-data
+31-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+32            android:name="unity.splash-mode"
+32-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+33            android:value="0" />
+33-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+34        <meta-data
+34-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+35            android:name="unity.splash-enable"
+35-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+36            android:value="True" />
+36-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+37        <meta-data
+37-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+38            android:name="unity.launch-fullscreen"
+38-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+39            android:value="True" />
+39-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+40        <meta-data
+40-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+41            android:name="unity.allow-resizable-window"
+41-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+42            android:value="False" />
+42-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+43        <meta-data
+43-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+44            android:name="notch.config"
+44-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+45            android:value="portrait|landscape" />
+45-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+46        <meta-data
+46-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+47            android:name="unity.auto-report-fully-drawn"
+47-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-60
+48            android:value="true" />
+48-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:61-81
+49
+50        <activity
+50-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-26:16
+51            android:name="com.unity3d.player.UnityPlayerActivity"
+51-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:15-68
+52            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+52-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:180-361
+53            android:exported="true"
+53-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:433-456
+54            android:hardwareAccelerated="false"
+54-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:397-432
+55            android:launchMode="singleTask"
+55-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:148-179
+56            android:resizeableActivity="false"
+56-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:362-396
+57            android:screenOrientation="fullUser"
+57-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:111-147
+58            android:theme="@style/UnityThemeSelector" >
+58-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:69-110
+59            <intent-filter>
+59-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:7-23:23
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-69
+60-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-66
+61
+62                <action android:name="android.intent.action.MAIN" />
+62-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:9-61
+62-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-58
+63
+64                <category android:name="com.oculus.intent.category.VR" />
+64-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:9-66
+64-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:19-63
+65            </intent-filter>
+66
+67            <meta-data
+67-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:7-82
+68                android:name="unityplayer.UnityActivity"
+68-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:18-58
+69                android:value="true" />
+69-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:59-79
+70            <meta-data
+70-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:7-70
+71                android:name="notch_support"
+71-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:18-46
+72                android:value="true" />
+72-->E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:47-67
+73        </activity>
+74    </application>
+75
+76</manifest>

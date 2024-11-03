@@ -1,0 +1,21 @@
+<dependencies>
+  <compile
+      roots="E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:audioinaec:@aar,E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release">
+    <dependency
+        name="E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name=":audioinaec:@aar"/>
+    <dependency
+        name="E:\Multiplayer_VR\Multiplayer_VR\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+  </package>
+</dependencies>

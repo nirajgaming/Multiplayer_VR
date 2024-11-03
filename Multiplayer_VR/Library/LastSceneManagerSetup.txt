@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_VR_Multiplayer_Project/Scenes/Multiplayer_Room_Scene.unity
+- path: Assets/_VR_Multiplayer_Project/Scenes/Intro_Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
